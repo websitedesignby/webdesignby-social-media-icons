@@ -1,0 +1,160 @@
+ul.social-media-icons{
+    list-style-type:none;
+    padding:0px;
+    margin:0px;
+}
+ul.social-media-icons li{
+    float:left;
+    margin:2px;
+}
+ul.social-media-icons li a{
+    display:block;
+    border:none;
+    background:no-repeat;
+}
+
+/* SIZES */
+
+ul.social-media-icons.size-20 li{
+    height:20px;
+    width:20px;
+}
+
+ul.social-media-icons.size-40 li{
+    height:40px;
+    width:40px;
+}
+
+ul.social-media-icons.size-20 li a{
+    height:20px;
+    width:20px;
+    background-size:200px 40px;
+}
+ul.social-media-icons.size-40 li a{
+    height:40px;
+    width:40px;
+    background-size:400px 80px;
+}
+
+ul.social-media-icons.size-20{
+    padding-bottom:20px;
+}
+ul.social-media-icons.circle.light li a{
+    background-image:url(../images/social-media-icons-circle-light.png);
+}
+ul.social-media-icons.square.light li a{
+    background-image:url(../images/social-media-icons-square-light.png);
+}
+ul.social-media-icons.rounded.dark li a{
+    background-image:url(../images/social-media-icons-rounded-dark.png);
+}
+ul.social-media-icons.circle.dark li a{
+    background-image:url(../images/social-media-icons-circle-dark.png);
+}
+ul.social-media-icons.square.dark li a{
+    background-image:url(../images/social-media-icons-square-dark.png);
+}
+ul.social-media-icons.rounded.dark li a{
+    background-image:url(../images/social-media-icons-rounded-dark.png);
+}
+/* SOCIAL MEDIA SITES */
+
+
+ul.social-media-icons.size-20 li.webdesignby_smi_fb a{
+    background-position: 0px 0px;
+}
+ul.social-media-icons.size-40 li.webdesignby_smi_fb a{
+    background-position: 0px 0px;
+}
+ul.social-media-icons.size-20 li.webdesignby_smi_fb a:hover{
+    background-position: 0px -20px;
+}
+ul.social-media-icons.size-40 li.webdesignby_smi_fb a:hover{
+    background-position: 0px -40px;
+}
+
+ul.social-media-icons.size-20 li.webdesignby_smi_twitter a{
+    background-position: -20px 0px;
+}
+ul.social-media-icons.size-40 li.webdesignby_smi_twitter a{
+    background-position: -40px 0px;
+}
+ul.social-media-icons.size-20 li.webdesignby_smi_twitter a:hover{
+    background-position: -20px -20px;
+}
+ul.social-media-icons.size-40 li.webdesignby_smi_twitter a:hover{
+    background-position: -40px -40px;
+}
+
+ul.social-media-icons.size-20 li.webdesignby_smi_linked_in a{
+    background-position: -40px 0px;
+}
+ul.social-media-icons.size-40 li.webdesignby_smi_linked_in a{
+    background-position: -80px 0px;
+}
+ul.social-media-icons.size-20 li.webdesignby_smi_linked_in a:hover{
+    background-position: -40px -20px;
+}
+ul.social-media-icons.size-40 li.webdesignby_smi_linked_in a:hover{
+    background-position: -80px -40px;
+}
+
+ul.social-media-icons.size-20 li.webdesignby_smi_g_plus a{
+    background-position: -60px 0px;
+}
+ul.social-media-icons.size-40 li.webdesignby_smi_g_plus a{
+    background-position: -120px 0px;
+}
+ul.social-media-icons.size-20 li.webdesignby_smi_g_plus a:hover{
+    background-position: -60px -20px;
+}
+ul.social-media-icons.size-40 li.webdesignby_smi_g_plus a:hover{
+    background-position: -120px -40px;
+}
+
+ul.social-media-icons.size-20 li.webdesignby_smi_ytube a{
+    background-position: -80px 0px;
+}
+ul.social-media-icons.size-40 li.webdesignby_smi_ytube a{
+    background-position: -160px 0px;
+}
+ul.social-media-icons.size-20 li.webdesignby_smi_ytube a:hover{
+    background-position: -80px -20px;
+}
+ul.social-media-icons.size-40 li.webdesignby_smi_ytube a:hover{
+    background-position: -160px -40px;
+}
+
+ul.social-media-icons.size-20 li.webdesignby_smi_instagram a{
+    background-position: -100px 0px;
+}
+ul.social-media-icons.size-40 li.webdesignby_smi_instagram a{
+    background-position: -200px 0px;
+}
+ul.social-media-icons.size-20 li.webdesignby_smi_instagram a:hover{
+    background-position: -100px -20px;
+}
+ul.social-media-icons.size-40 li.webdesignby_smi_instagram a:hover{
+    background-position: -200px -40px;
+}
+
+ul.social-media-icons.size-20 li.webdesignby_smi_pinterest a{
+    background-position: -120px 0px;
+}
+ul.social-media-icons.size-40 li.webdesignby_smi_pinterest a{
+    background-position: -240px 0px;
+}
+ul.social-media-icons.size-20 li.webdesignby_smi_pinterest a:hover{
+    background-position: -120px -20px;
+}
+ul.social-media-icons.size-40 li.webdesignby_smi_pinterest a:hover{
+    background-position: -240px -40px;
+}
+
+/* Prevent Transitions */
+ul.social-media-icons li a{
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  transition: none;
+}
